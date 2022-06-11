@@ -7,7 +7,7 @@ include 'connect.php';
     $phone = $_POST['phone'];
     $email = $_POST['email'];
 
-    $sql = "INSERT INTO member 
+    $sql = "INSERT INTO memberlist 
     (username,password,name,phone,email)
     VALUES
     ('$username','$password','$name','$phone','$email')";
